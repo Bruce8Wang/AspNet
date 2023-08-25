@@ -1,4 +1,4 @@
-﻿<%@ WebHandler Language="C#" Class="MyCaptcha" %>
+<%@ WebHandler Language="C#" Class="MyCaptcha" %>
 
 using System.IO;
 using System.Drawing;
