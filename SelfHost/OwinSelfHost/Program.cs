@@ -10,8 +10,7 @@ public class Program
         using (WebApp.Start("http://localhost:8080/", app =>
         {
             var config = new HttpConfiguration();
-            config.Routes.MapHttpRoute("DefaultApi", "api/{controller}/{id}", new { id = RouteParameter.Optional }
-        );
+            config.Routes.MapHttpRoute("DefaultApi", "api/{controller}/{id}", new { id = RouteParameter.Optional });
             app.UseWebApi(config);
         }))
         {
