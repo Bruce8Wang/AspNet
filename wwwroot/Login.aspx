@@ -22,13 +22,11 @@
 <head>
 	<title>Login</title>
 	<meta charset="utf-8" />
-	<link href="https://cdn.staticfile.org/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdn.staticfile.org/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" rel="stylesheet">
-	<script src="https://cdn.staticfile.org/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery/3.7.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-	<script src="https://cdn.staticfile.org/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
-	<script src="https://cdn.staticfile.org/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-	<script src="https://cdn.staticfile.org/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>	
+	<link href="https://cdn.staticfile.org/bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.staticfile.org/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <form method="post">
