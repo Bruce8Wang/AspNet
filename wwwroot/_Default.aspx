@@ -1,5 +1,4 @@
 <%@ Page Language="C#" %>
-<!--#include file="include.aspx" -->
 <%
 	if (Request.HttpMethod == "POST" && Request.Form["submit"] == "logout" ) 
 	{
