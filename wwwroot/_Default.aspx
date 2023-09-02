@@ -5,7 +5,7 @@
 	{
 		Session.Abandon();
 		Response.StatusCode = 302;
-		Response.Headers["Location"] = "/Login.aspx?redirect=" + Request.Path;
+		Response.Headers["Location"] = "/_Login.aspx?redirect=" + Request.Path;
 		Response.Clear();
 		Response.End();		
 	}
