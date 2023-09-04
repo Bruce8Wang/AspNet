@@ -18,12 +18,12 @@
 	void Application_PostMapRequestHandler() { Console.WriteLine("哇塞，Application_PostMapRequestHandler！"); }
 	void Application_AcquireRequestState()
 	{
-		if (Request.Path != "/_Login.aspx")
+		if (Request.Path != "/Login.aspx")
 		{
 			if (Session["loginName"] == null)
 			{
 				Response.StatusCode = 302;
-				Response.Headers["Location"] = "/_Login.aspx?redirect=" + Request.Path;
+				Response.Headers["Location"] = "/Login.aspx?redirect=" + Request.Path;
 				Response.Clear();
 				Response.End();
 			}
