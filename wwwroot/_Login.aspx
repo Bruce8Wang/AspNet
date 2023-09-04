@@ -22,6 +22,7 @@
 <head>
 	<title>Login</title>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<script src="https://cdn.staticfile.org/jquery/3.7.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
