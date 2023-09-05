@@ -1,12 +1,10 @@
 <%@ Application Language="C#" %>
 <script runat="server">
-	// ４個 監聽器事件
+	// 29个监听器事件	
 	void Application_Start() {}
 	void Session_Start() {}
 	void Application_End() {}
 	void Session_End() {}
-	
-	// 25個 過濾器事件
 	void Application_BeginRequest() { Context.SetSessionStateBehavior(SessionStateBehavior.Required);}	
 	void Application_AuthenticateRequest() {}
 	void Application_PostAuthenticateRequest() {}
