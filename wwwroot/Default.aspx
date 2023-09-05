@@ -4,7 +4,7 @@
 	{
 		Session.Abandon();
 		Response.StatusCode = 302;
-		Response.Headers["Location"] = "/_Login.aspx?redirect=" + Request.Path;
+		Response.Headers["Location"] = "/Login.aspx?redirect=" + Request.Path;
 		Response.Clear();
 		Response.End();		
 	}
@@ -29,6 +29,5 @@
     <button type="submit" name="submit" value="logout">退出</button>
   </form>
 </fieldset>
-<%=msg%>
 </body>
 </html>
