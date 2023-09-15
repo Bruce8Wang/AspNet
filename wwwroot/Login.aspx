@@ -26,8 +26,8 @@
 	<script src="https://cdn.staticfile.org/jquery/3.7.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 	<script src="https://cdn.staticfile.org/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
-	<script src="https://cdn.staticfile.org/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
-	<link href="https://cdn.staticfile.org/bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet">	
+	<script src="https://cdn.staticfile.org/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+	<link href="https://cdn.staticfile.org/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">	
 </head>
 <body>
 <form method="post">
