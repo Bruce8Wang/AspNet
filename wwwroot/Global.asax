@@ -14,7 +14,10 @@
 	void Application_PostResolveRequestCache() {}
 	void Application_MapRequestHandler() {}
 	void Application_PostMapRequestHandler() {}
-	void Application_AcquireRequestState()
+	void Application_AcquireRequestState() {}
+	void Application_PostAcquireRequestState() {}
+	void Application_PreRequestHandlerExecute() {}
+	void Application_PostRequestHandlerExecute()
 	{
 		if (Request.Path != "/Login.aspx")
 		{
@@ -30,10 +33,7 @@
 				// 开始基于path、method、Session["loginName"] 进行鉴权
 			}
 		}
-	}
-	void Application_PostAcquireRequestState() {}
-	void Application_PreRequestHandlerExecute() {}
-	void Application_PostRequestHandlerExecute() {}
+	}	
 	void Application_ReleaseRequestState() {}
 	void Application_PostReleaseRequestState() {}
 	void Application_UpdateRequestCache() {}
