@@ -1,10 +1,11 @@
 <%@ Application Language="C#" %>
 <script runat="server">
-	// 29个监听器事件	
+	// 4个监听器事件	
 	void Application_Start() {}
 	void Session_Start() {}
 	void Application_End() {}
 	void Session_End() {}
+	// 24个过滤器事件
 	void Application_BeginRequest() { Context.SetSessionStateBehavior(SessionStateBehavior.Required);}	
 	void Application_AuthenticateRequest() {}
 	void Application_PostAuthenticateRequest() {}
@@ -14,10 +15,7 @@
 	void Application_PostResolveRequestCache() {}
 	void Application_MapRequestHandler() {}
 	void Application_PostMapRequestHandler() {}
-	void Application_AcquireRequestState() {}
-	void Application_PostAcquireRequestState() {}
-	void Application_PreRequestHandlerExecute() {}
-	void Application_PostRequestHandlerExecute()
+	void Application_AcquireRequestState()
 	{
 		if (Request.Path != "/Login.aspx")
 		{
@@ -34,6 +32,9 @@
 			}
 		}
 	}	
+	void Application_PostAcquireRequestState() {}
+	void Application_PreRequestHandlerExecute() {}
+	void Application_PostRequestHandlerExecute(){}	
 	void Application_ReleaseRequestState() {}
 	void Application_PostReleaseRequestState() {}
 	void Application_UpdateRequestCache() {}
@@ -45,5 +46,4 @@
 	void Application_PreSendRequestContent() {}
 	void Application_PreSendRequestHeaders() {}
 	void Application_RequestCompleted() {}
-	void Application_Disposed() {}		
 </script>
