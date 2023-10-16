@@ -8,10 +8,10 @@ namespace WinSrv
 	{
 		public static void Main(string[] args)
 		{
-			ServiceBase.Run(new WindowsService());
+			ServiceBase.Run(new MyService());
 		}
 		
-		public class WindowsService : ServiceBase
+		public class MyService : ServiceBase
 		{
 			private Process process = null;
 			
