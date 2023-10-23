@@ -1,10 +1,5 @@
 <%@ Page Language="C#" %>
 
-<%@ Import Namespace="System.IO" %>
-<%@ Import Namespace="System.Drawing" %>
-<%@ Import Namespace="System.Web.UI.DataVisualization.Charting" %>
-<%@ Import Namespace="System.Collections.Generic" %>
-
 <%
     var data = new List<int>();
     data.Add(1);

@@ -1,9 +1,5 @@
 <%@ Page Language="C#" %>
 
-<%@ Import Namespace="System.IO" %>
-<%@ Import Namespace="System.Drawing" %>
-<%@ Import Namespace="System.Drawing.Imaging" %>
-
 <%
     string vNum = "X13B";
     int width = (int)(vNum.Length * 11.5);
